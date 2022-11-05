@@ -1,0 +1,18 @@
+{
+  "name": "monorepo-starter-template",
+  "packageManager": "yarn@3.2.4",
+  "workspaces": {
+    "packages": [
+      "./packages/**"
+    ]
+  },
+  "scripts": {
+    "project-a": "yarn workspace @monorepo-starter-template/project-a",
+    "ui": "yarn workspace @monorepo-starter-template/ui"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
